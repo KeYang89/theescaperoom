@@ -1,0 +1,386 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 02:02:47
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	0.5.8
+PHP:		5.4.20 | SAPI: cgi-fcgi
+SERVER:		Apache
+DOC ROOT:	/home/keyan2/theescaperoom.narrativecard.com
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20141211_theescaperoom_5489cd76dcea23130141211165934
+REQUEST URL:	http://theescaperoom.narrativecard.com/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20141211_theescaperoom_5489cd76dcea23130141211165934_archive.zip
+SIZE:	228.88MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 0
+    [filename] => 
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/home/keyan2/theescaperoom.narrativecard.com/installer-data.sql'
+- WP-CONFIG: '/home/keyan2/theescaperoom.narrativecard.com/wp-config.php'
+
+ARCHIVE RUNTIME: 57.1018 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.1.56-log
+TIMEOUT:	5000
+MAXPACK:	16777216
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	
+QUERIES RAN:	7359
+
+wp_g9tctsj6cd_app_appointments: (48)
+wp_g9tctsj6cd_app_cache: (0)
+wp_g9tctsj6cd_app_exceptions: (0)
+wp_g9tctsj6cd_app_services: (5)
+wp_g9tctsj6cd_app_transactions: (0)
+wp_g9tctsj6cd_app_workers: (5)
+wp_g9tctsj6cd_app_working_hours: (12)
+wp_g9tctsj6cd_commentmeta: (3)
+wp_g9tctsj6cd_comments: (1)
+wp_g9tctsj6cd_duplicator_packages: (1)
+wp_g9tctsj6cd_gallery_albums: (1)
+wp_g9tctsj6cd_gallery_pics: (5)
+wp_g9tctsj6cd_gallery_settings: (78)
+wp_g9tctsj6cd_layerslider: (1)
+wp_g9tctsj6cd_links: (0)
+wp_g9tctsj6cd_m_communications: (0)
+wp_g9tctsj6cd_m_coupons: (2)
+wp_g9tctsj6cd_m_levelmeta: (6)
+wp_g9tctsj6cd_m_member_payments: (0)
+wp_g9tctsj6cd_m_membership_levels: (2)
+wp_g9tctsj6cd_m_membership_news: (0)
+wp_g9tctsj6cd_m_membership_relationships: (0)
+wp_g9tctsj6cd_m_membership_rules: (7)
+wp_g9tctsj6cd_m_ping_history: (0)
+wp_g9tctsj6cd_m_pings: (0)
+wp_g9tctsj6cd_m_subscription_transaction: (0)
+wp_g9tctsj6cd_m_subscriptionmeta: (0)
+wp_g9tctsj6cd_m_subscriptions: (0)
+wp_g9tctsj6cd_m_subscriptions_levels: (0)
+wp_g9tctsj6cd_m_urlgroups: (0)
+wp_g9tctsj6cd_options: (421)
+wp_g9tctsj6cd_postmeta: (5486)
+wp_g9tctsj6cd_posts: (676)
+wp_g9tctsj6cd_redirects: (1)
+wp_g9tctsj6cd_revslider_css: (47)
+wp_g9tctsj6cd_revslider_layer_animations: (0)
+wp_g9tctsj6cd_revslider_settings: (0)
+wp_g9tctsj6cd_revslider_sliders: (1)
+wp_g9tctsj6cd_revslider_slides: (5)
+wp_g9tctsj6cd_revslider_static_slides: (0)
+wp_g9tctsj6cd_term_relationships: (56)
+wp_g9tctsj6cd_term_taxonomy: (84)
+wp_g9tctsj6cd_terms: (83)
+wp_g9tctsj6cd_usermeta: (259)
+wp_g9tctsj6cd_users: (11)
+wp_g9tctsj6cd_wce_editor_content: (2)
+wp_g9tctsj6cd_woocommerce_order_itemmeta: (0)
+wp_g9tctsj6cd_woocommerce_order_items: (0)
+Removed '102' cache/transient rows
+
+SECTION RUNTIME: 3.9735 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 02:03:48 - TOTAL RUNTIME: 61.0806 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 02:09:23
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_g9tctsj6cd_app_appointments~ (48)
+wp_g9tctsj6cd_app_cache^ (0)
+wp_g9tctsj6cd_app_exceptions^ (0)
+wp_g9tctsj6cd_app_services~ (5)
+wp_g9tctsj6cd_app_transactions^ (0)
+wp_g9tctsj6cd_app_workers~ (5)
+wp_g9tctsj6cd_app_working_hours~ (12)
+wp_g9tctsj6cd_commentmeta~ (3)
+wp_g9tctsj6cd_comments~ (1)
+wp_g9tctsj6cd_duplicator_packages^ (0)
+wp_g9tctsj6cd_gallery_albums~ (1)
+wp_g9tctsj6cd_gallery_pics~ (5)
+wp_g9tctsj6cd_gallery_settings~ (78)
+wp_g9tctsj6cd_layerslider~ (1)
+wp_g9tctsj6cd_links^ (0)
+wp_g9tctsj6cd_m_communications^ (0)
+wp_g9tctsj6cd_m_coupons~ (2)
+wp_g9tctsj6cd_m_levelmeta~ (6)
+wp_g9tctsj6cd_m_member_payments^ (0)
+wp_g9tctsj6cd_m_membership_levels~ (2)
+wp_g9tctsj6cd_m_membership_news^ (0)
+wp_g9tctsj6cd_m_membership_relationships^ (0)
+wp_g9tctsj6cd_m_membership_rules~ (7)
+wp_g9tctsj6cd_m_ping_history^ (0)
+wp_g9tctsj6cd_m_pings^ (0)
+wp_g9tctsj6cd_m_subscription_transaction^ (0)
+wp_g9tctsj6cd_m_subscriptionmeta^ (0)
+wp_g9tctsj6cd_m_subscriptions^ (0)
+wp_g9tctsj6cd_m_subscriptions_levels^ (0)
+wp_g9tctsj6cd_m_urlgroups^ (0)
+wp_g9tctsj6cd_options~ (317)
+wp_g9tctsj6cd_postmeta~ (5486)
+wp_g9tctsj6cd_posts~ (676)
+wp_g9tctsj6cd_redirects~ (1)
+wp_g9tctsj6cd_revslider_css~ (47)
+wp_g9tctsj6cd_revslider_layer_animations^ (0)
+wp_g9tctsj6cd_revslider_settings^ (0)
+wp_g9tctsj6cd_revslider_sliders~ (1)
+wp_g9tctsj6cd_revslider_slides~ (5)
+wp_g9tctsj6cd_revslider_static_slides^ (0)
+wp_g9tctsj6cd_term_relationships~ (56)
+wp_g9tctsj6cd_term_taxonomy~ (84)
+wp_g9tctsj6cd_terms~ (83)
+wp_g9tctsj6cd_usermeta~ (259)
+wp_g9tctsj6cd_users~ (11)
+wp_g9tctsj6cd_wce_editor_content~ (2)
+wp_g9tctsj6cd_woocommerce_order_itemmeta^ (0)
+wp_g9tctsj6cd_woocommerce_order_items^ (0)
+--------------------------------------
+SEARCH1:	'http://www.theescaperoom.co.uk' 
+REPLACE1:	'http://theescaperoom.narrativecard.com' 
+SEARCH2:	'/home/content/p3pnexwpnas02_data01/48/2078448/html/' 
+REPLACE2:	'/home/keyan2/theescaperoom.narrativecard.com/' 
+SCANNED:	Tables:48 | Rows:7204 | Cells:42728 
+UPDATED:	Tables:7 | Rows:631 |Cells:893 
+ERRORS:		0 
+RUNTIME:	1.881000 sec
+
+********************************************************************************
+START FINAL CLEANUP: 02:09:25
+********************************************************************************
+UPDATE `wp_g9tctsj6cd_blogs` SET domain = 'theescaperoom.narrativecard.com' WHERE domain = 'www.theescaperoom.co.uk'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 02:09:25 - TOTAL RUNTIME: 1.9180 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 02:13:26
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_g9tctsj6cd_app_appointments~ (48)
+wp_g9tctsj6cd_app_cache^ (0)
+wp_g9tctsj6cd_app_exceptions^ (0)
+wp_g9tctsj6cd_app_services~ (5)
+wp_g9tctsj6cd_app_transactions^ (0)
+wp_g9tctsj6cd_app_workers~ (5)
+wp_g9tctsj6cd_app_working_hours~ (12)
+wp_g9tctsj6cd_commentmeta~ (3)
+wp_g9tctsj6cd_comments~ (1)
+wp_g9tctsj6cd_duplicator_packages^ (0)
+wp_g9tctsj6cd_gallery_albums~ (1)
+wp_g9tctsj6cd_gallery_pics~ (5)
+wp_g9tctsj6cd_gallery_settings~ (78)
+wp_g9tctsj6cd_layerslider~ (1)
+wp_g9tctsj6cd_links^ (0)
+wp_g9tctsj6cd_m_communications^ (0)
+wp_g9tctsj6cd_m_coupons~ (2)
+wp_g9tctsj6cd_m_levelmeta~ (6)
+wp_g9tctsj6cd_m_member_payments^ (0)
+wp_g9tctsj6cd_m_membership_levels~ (2)
+wp_g9tctsj6cd_m_membership_news^ (0)
+wp_g9tctsj6cd_m_membership_relationships^ (0)
+wp_g9tctsj6cd_m_membership_rules~ (7)
+wp_g9tctsj6cd_m_ping_history^ (0)
+wp_g9tctsj6cd_m_pings^ (0)
+wp_g9tctsj6cd_m_subscription_transaction^ (0)
+wp_g9tctsj6cd_m_subscriptionmeta^ (0)
+wp_g9tctsj6cd_m_subscriptions^ (0)
+wp_g9tctsj6cd_m_subscriptions_levels^ (0)
+wp_g9tctsj6cd_m_urlgroups^ (0)
+wp_g9tctsj6cd_options~ (324)
+wp_g9tctsj6cd_postmeta~ (5486)
+wp_g9tctsj6cd_posts~ (676)
+wp_g9tctsj6cd_redirects~ (1)
+wp_g9tctsj6cd_revslider_css~ (47)
+wp_g9tctsj6cd_revslider_layer_animations^ (0)
+wp_g9tctsj6cd_revslider_settings^ (0)
+wp_g9tctsj6cd_revslider_sliders~ (1)
+wp_g9tctsj6cd_revslider_slides~ (5)
+wp_g9tctsj6cd_revslider_static_slides^ (0)
+wp_g9tctsj6cd_term_relationships~ (56)
+wp_g9tctsj6cd_term_taxonomy~ (84)
+wp_g9tctsj6cd_terms~ (83)
+wp_g9tctsj6cd_usermeta~ (259)
+wp_g9tctsj6cd_users~ (11)
+wp_g9tctsj6cd_wce_editor_content~ (2)
+wp_g9tctsj6cd_woocommerce_order_itemmeta^ (0)
+wp_g9tctsj6cd_woocommerce_order_items^ (0)
+--------------------------------------
+SEARCH1:	'http://www.theescaperoom.co.uk' 
+REPLACE1:	'http://theescaperoom.narrativecard.com' 
+SEARCH2:	'/home/content/p3pnexwpnas02_data01/48/2078448/html/' 
+REPLACE2:	'/home/keyan2/theescaperoom.narrativecard.com/' 
+SCANNED:	Tables:48 | Rows:7211 | Cells:42756 
+UPDATED:	Tables:1 | Rows:1 |Cells:1 
+ERRORS:		0 
+RUNTIME:	1.301600 sec
+
+********************************************************************************
+START FINAL CLEANUP: 02:13:27
+********************************************************************************
+UPDATE `wp_g9tctsj6cd_blogs` SET domain = 'theescaperoom.narrativecard.com' WHERE domain = 'www.theescaperoom.co.uk'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 02:13:27 - TOTAL RUNTIME: 1.3172 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 02:16:51
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_g9tctsj6cd_app_appointments~ (48)
+wp_g9tctsj6cd_app_cache^ (0)
+wp_g9tctsj6cd_app_exceptions^ (0)
+wp_g9tctsj6cd_app_services~ (5)
+wp_g9tctsj6cd_app_transactions^ (0)
+wp_g9tctsj6cd_app_workers~ (5)
+wp_g9tctsj6cd_app_working_hours~ (12)
+wp_g9tctsj6cd_commentmeta~ (3)
+wp_g9tctsj6cd_comments~ (1)
+wp_g9tctsj6cd_duplicator_packages^ (0)
+wp_g9tctsj6cd_gallery_albums~ (1)
+wp_g9tctsj6cd_gallery_pics~ (5)
+wp_g9tctsj6cd_gallery_settings~ (78)
+wp_g9tctsj6cd_layerslider~ (1)
+wp_g9tctsj6cd_links^ (0)
+wp_g9tctsj6cd_m_communications^ (0)
+wp_g9tctsj6cd_m_coupons~ (2)
+wp_g9tctsj6cd_m_levelmeta~ (6)
+wp_g9tctsj6cd_m_member_payments^ (0)
+wp_g9tctsj6cd_m_membership_levels~ (2)
+wp_g9tctsj6cd_m_membership_news^ (0)
+wp_g9tctsj6cd_m_membership_relationships^ (0)
+wp_g9tctsj6cd_m_membership_rules~ (7)
+wp_g9tctsj6cd_m_ping_history^ (0)
+wp_g9tctsj6cd_m_pings^ (0)
+wp_g9tctsj6cd_m_subscription_transaction^ (0)
+wp_g9tctsj6cd_m_subscriptionmeta^ (0)
+wp_g9tctsj6cd_m_subscriptions^ (0)
+wp_g9tctsj6cd_m_subscriptions_levels^ (0)
+wp_g9tctsj6cd_m_urlgroups^ (0)
+wp_g9tctsj6cd_options~ (324)
+wp_g9tctsj6cd_postmeta~ (5486)
+wp_g9tctsj6cd_posts~ (676)
+wp_g9tctsj6cd_redirects~ (1)
+wp_g9tctsj6cd_revslider_css~ (47)
+wp_g9tctsj6cd_revslider_layer_animations^ (0)
+wp_g9tctsj6cd_revslider_settings^ (0)
+wp_g9tctsj6cd_revslider_sliders~ (1)
+wp_g9tctsj6cd_revslider_slides~ (5)
+wp_g9tctsj6cd_revslider_static_slides^ (0)
+wp_g9tctsj6cd_term_relationships~ (56)
+wp_g9tctsj6cd_term_taxonomy~ (84)
+wp_g9tctsj6cd_terms~ (83)
+wp_g9tctsj6cd_usermeta~ (259)
+wp_g9tctsj6cd_users~ (11)
+wp_g9tctsj6cd_wce_editor_content~ (2)
+wp_g9tctsj6cd_woocommerce_order_itemmeta^ (0)
+wp_g9tctsj6cd_woocommerce_order_items^ (0)
+--------------------------------------
+SEARCH1:	'http://www.theescaperoom.co.uk' 
+REPLACE1:	'http://theescaperoom.narrativecard.com' 
+SEARCH2:	'/home/content/p3pnexwpnas02_data01/48/2078448/html/' 
+REPLACE2:	'/home/keyan2/theescaperoom.narrativecard.com/' 
+SCANNED:	Tables:48 | Rows:7211 | Cells:42756 
+UPDATED:	Tables:1 | Rows:1 |Cells:1 
+ERRORS:		0 
+RUNTIME:	1.297300 sec
+
+********************************************************************************
+START FINAL CLEANUP: 02:16:52
+********************************************************************************
+UPDATE `wp_g9tctsj6cd_blogs` SET domain = 'theescaperoom.narrativecard.com' WHERE domain = 'www.theescaperoom.co.uk'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 02:16:52 - TOTAL RUNTIME: 1.3211 sec.
+********************************************************************************

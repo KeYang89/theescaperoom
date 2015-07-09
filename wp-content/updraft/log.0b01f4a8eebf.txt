@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Sat, 06 Jun 2015 14:22:21 +0000 on http://theescaperoom.narrativecard.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.1 PHP: 5.4.37 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.3M | 47.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 371445.9 Mb
+0000.006 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.007 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.010 (0) No email will be sent - this backup set was empty.
+0000.012 (0) The backup apparently succeeded and is now complete

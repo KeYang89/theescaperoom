@@ -1,0 +1,96 @@
+/*
+Theme Name: Jupiter
+Theme URI: http://themeforest.net/user/artbees
+Author: Artbees
+Author URI: http://themeforest.net/user/artbees
+Version: 4.0.5.1
+Description: A Beautiful, Professional and Ultimate Wordpress Theme Made by Artbees. Jupiter is a Clean, Flexible, fully responsive and retina ready Wordpress theme. Its smart and hand crafted environment allows you to Build outstanding websites easy and fast.
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+/*
+
+Main Stylesheet file is located at stylesheet/css/styles.css
+
+*/
+.mk-blog-grid-item .mk-blog-meta, .mk-blog-grid-item .blog-grid-footer {
+background-color:black;
+}
+.mk-page-section {
+  background-image: none !important;
+}
+.image-hover-overlay, div.featured-image > a > i {display: none;}
+.page-introduce-title {
+  color: black !important;
+  background: #FFCC28;
+  padding: 8px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.black-button{
+	background: black;
+	padding:5px 10px;
+	text-align: center;
+	color:black;
+	width: 140px;
+	float:left;
+	margin:10px;
+}
+ul {
+  list-style-type: none !important;
+}
+p {color:black;}
+body {background-color:black !important;}
+#theme-page {margin-top: 140px;}
+[class*=icon-], .mk-gallery-shortcode article.hover-overlay_layer .gallery-title {
+padding:0px;
+}
+.mp_product_image_link .mp_lightbox {display:none !important;}
+.mk-gallery-shortcode article.hover-overlay_layer .gallery-title:after {
+position: absolute;
+content: '';
+bottom: 0;
+left: 50%;
+margin-left: -6px;
+height: 2px;
+width: 12px;
+display:none;
+}
+.mk-box-icon-2.box-align-left,.mk-box-icon-2 .mk-box-icon-2-icon i{
+padding:0px !important;
+}
+
+.mk-gallery-shortcode article.hover-overlay_layer:hover .gallery-caption, .mk-gallery-shortcode article.hover-overlay_layer:hover .gallery-title {
+padding-top:0px;
+font-size:1.5em;
+font-family:Oswald;
+color:black;
+}
+
+.mk-blog-carousel .flex-viewport ul li:hover .post-type-badge {
+display:none;
+}
+#mk-page-introduce.intro-left {
+background-color:black;
+}
+#mk-responsive-nav li a>i
+{
+display:block;
+}
+
+.widget_posts_lists ul li .post-list-title 
+{
+font-size: 16px;
+}
+
+html {
+background:black;
+}
+
+.mk-blog-carousel .flex-viewport ul li:hover .blog-carousel-overlay {
+opacity:0 !important;
+}
+ 

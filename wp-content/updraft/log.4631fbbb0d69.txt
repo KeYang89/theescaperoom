@@ -1,0 +1,150 @@
+0000.002 (0) Opened log file at time: Sat, 31 Jan 2015 00:17:38 +0000 on http://theescaperoom.narrativecard.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.1 PHP: 5.4.36 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47.2M | 51M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 582915.6 Mb
+0000.008 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.009 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.068 (0) Requesting semaphore lock (fd)
+0000.071 (0) Semaphore (fd) was stuck, set lock time to 2015-01-31 00:17:38
+0000.073 (0) Semaphore (fd) reset to 1
+0000.075 (0) Set semaphore last lock (fd) time to 2015-01-31 00:17:38
+0000.076 (0) Semaphore lock (fd) complete
+0000.081 (0) Backup run: resumption=0, nonce=4631fbbb0d69, begun at=1422663458 (0s ago), job type=backup
+0000.083 (0) Scheduling a resumption (1) after 300 seconds (1422663758) in case this run gets aborted
+0000.110 (0) Checking if we have a zip executable available
+0000.112 (0) Testing: /usr/bin/zip
+0000.150 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.152 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.153 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.154 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.156 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.171 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.173 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.220 (0) Working binary zip found: /usr/bin/zip
+0000.223 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.224 (0) Creation of backups of directories: beginning
+0000.230 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0007.162 (0) Total entities for the zip file: 609 directories, 3674 files (0 skipped as non-modified), 54.7 Mb
+0007.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0007.215 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: size is now: 0.10 Mb
+0007.222 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 100 files added (on-disk size: 135 Kb)
+0007.226 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 200 files added (on-disk size: 135 Kb)
+0007.230 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 300 files added (on-disk size: 135 Kb)
+0007.235 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 400 files added (on-disk size: 135 Kb)
+0007.239 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 500 files added (on-disk size: 135 Kb)
+0007.241 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 Mb, 3674 files batched, 501 (502) added so far); re-opening (prior size: 135 Kb)
+0012.967 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: size is now: 4.60 Mb
+0012.974 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 600 files added (on-disk size: 4682.1 Kb)
+0012.979 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 700 files added (on-disk size: 4682.1 Kb)
+0012.983 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 800 files added (on-disk size: 4682.1 Kb)
+0012.988 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 900 files added (on-disk size: 4682.1 Kb)
+0012.992 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1000 files added (on-disk size: 4682.1 Kb)
+0012.993 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.7 Mb, 3674 files batched, 501 (1003) added so far); re-opening (prior size: 4682.1 Kb)
+0019.710 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: size is now: 14.80 Mb
+0019.718 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1100 files added (on-disk size: 15186.9 Kb)
+0019.723 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1200 files added (on-disk size: 15186.9 Kb)
+0019.728 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1300 files added (on-disk size: 15186.9 Kb)
+0019.733 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1400 files added (on-disk size: 15186.9 Kb)
+0019.737 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1500 files added (on-disk size: 15186.9 Kb)
+0019.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 Mb, 3674 files batched, 501 (1504) added so far); re-opening (prior size: 15186.9 Kb)
+0029.043 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1600 files added (on-disk size: 17794.7 Kb)
+0029.050 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1700 files added (on-disk size: 17794.7 Kb)
+0029.054 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1800 files added (on-disk size: 17794.7 Kb)
+0029.058 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 1900 files added (on-disk size: 17794.7 Kb)
+0029.068 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2000 files added (on-disk size: 17794.7 Kb)
+0029.073 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 Mb, 3674 files batched, 501 (2005) added so far); re-opening (prior size: 17794.7 Kb)
+0032.741 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2100 files added (on-disk size: 19568.4 Kb)
+0032.746 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2200 files added (on-disk size: 19568.4 Kb)
+0032.750 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2300 files added (on-disk size: 19568.4 Kb)
+0032.754 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2400 files added (on-disk size: 19568.4 Kb)
+0032.758 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2500 files added (on-disk size: 19568.4 Kb)
+0032.760 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 Mb, 3674 files batched, 501 (2506) added so far); re-opening (prior size: 19568.4 Kb)
+0036.967 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2600 files added (on-disk size: 20923.4 Kb)
+0036.972 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2700 files added (on-disk size: 20923.4 Kb)
+0036.978 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2800 files added (on-disk size: 20923.4 Kb)
+0036.983 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 2900 files added (on-disk size: 20923.4 Kb)
+0036.990 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3000 files added (on-disk size: 20923.4 Kb)
+0036.991 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 Mb, 3674 files batched, 501 (3007) added so far); re-opening (prior size: 20923.4 Kb)
+0040.702 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3100 files added (on-disk size: 22576.9 Kb)
+0040.707 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3200 files added (on-disk size: 22576.9 Kb)
+0040.711 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3300 files added (on-disk size: 22576.9 Kb)
+0040.716 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3400 files added (on-disk size: 22576.9 Kb)
+0040.720 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3500 files added (on-disk size: 22576.9 Kb)
+0040.722 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 Mb, 3674 files batched, 501 (3508) added so far); re-opening (prior size: 22576.9 Kb)
+0045.845 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-plugins.zip.tmp: 3600 files added (on-disk size: 26509.8 Kb)
+0047.358 (0) Created plugins zip (0) - 27084.2 Kb in 47.1 s (575.3 Kb/s) (SHA1 checksum: d787f4df4b7c3fdefdf4f53e5a558e5b5b12fa25)
+0047.361 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0051.277 (0) Total entities for the zip file: 342 directories, 2696 files (0 skipped as non-modified), 82.7 Mb
+0051.280 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0051.329 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 0.10 Mb
+0051.337 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 100 files added (on-disk size: 64.3 Kb)
+0051.342 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 200 files added (on-disk size: 64.3 Kb)
+0051.346 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 300 files added (on-disk size: 64.3 Kb)
+0051.350 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 400 files added (on-disk size: 64.3 Kb)
+0051.354 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 500 files added (on-disk size: 64.3 Kb)
+0051.355 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 Mb, 2696 files batched, 501 (502) added so far); re-opening (prior size: 64.3 Kb)
+0062.186 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 5.60 Mb
+0062.194 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 600 files added (on-disk size: 5776.4 Kb)
+0062.198 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 700 files added (on-disk size: 5776.4 Kb)
+0062.203 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 800 files added (on-disk size: 5776.4 Kb)
+0062.207 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 900 files added (on-disk size: 5776.4 Kb)
+0062.211 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1000 files added (on-disk size: 5776.4 Kb)
+0062.213 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 Mb, 2696 files batched, 501 (1003) added so far); re-opening (prior size: 5776.4 Kb)
+0066.933 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 10.30 Mb
+0066.941 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1100 files added (on-disk size: 10497.3 Kb)
+0066.945 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1200 files added (on-disk size: 10497.3 Kb)
+0066.950 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1300 files added (on-disk size: 10497.3 Kb)
+0066.955 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1400 files added (on-disk size: 10497.3 Kb)
+0066.959 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1500 files added (on-disk size: 10497.3 Kb)
+0066.960 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.2 Mb, 2696 files batched, 501 (1504) added so far); re-opening (prior size: 10497.3 Kb)
+0073.976 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 17.90 Mb
+0073.984 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1600 files added (on-disk size: 18280.9 Kb)
+0073.988 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1700 files added (on-disk size: 18280.9 Kb)
+0073.993 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1800 files added (on-disk size: 18280.9 Kb)
+0073.997 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 1900 files added (on-disk size: 18280.9 Kb)
+0074.001 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2000 files added (on-disk size: 18280.9 Kb)
+0074.003 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 Mb, 2696 files batched, 501 (2005) added so far); re-opening (prior size: 18280.9 Kb)
+0078.612 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 21.50 Mb
+0078.621 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2100 files added (on-disk size: 22015.2 Kb)
+0078.625 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2200 files added (on-disk size: 22015.2 Kb)
+0078.630 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2300 files added (on-disk size: 22015.2 Kb)
+0078.636 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2400 files added (on-disk size: 22015.2 Kb)
+0078.641 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2500 files added (on-disk size: 22015.2 Kb)
+0078.642 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.5 Mb, 2696 files batched, 501 (2506) added so far); re-opening (prior size: 22015.2 Kb)
+0083.982 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 30.70 Mb
+0084.000 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: 2600 files added (on-disk size: 31391.5 Kb)
+0084.003 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.7 Mb, 2696 files batched, 117 (2623) added so far); re-opening (prior size: 31391.5 Kb)
+0087.319 (0) A useful amount of data was added after this amount of zip processing: 3.9 s (normalised: 3.8 s, rate: 6677.8 Kb/s)
+0087.322 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.9355189800262, normalised_time=3.8336134548865, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=41028236)
+0088.918 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-themes.zip.tmp: size is now: 42.80 Mb
+0089.163 (0) Created themes zip (0) - 43871.3 Kb in 41.8 s (1049.6 Kb/s) (SHA1 checksum: 052705a599413ed3dbe2b42b50416f1213996650)
+0089.167 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0089.168 (0) Looking for candidates to back up in: /home/keyan2/theescaperoom.narrativecard.com/wp-content/uploads
+0089.169 (0) finding files: .htaccess: adding to list (1)
+0089.171 (0) finding files: 2014: adding to list (2)
+0089.172 (0) finding files: appointments-log.txt: adding to list (3)
+0089.172 (0) finding files: woocommerce_uploads: adding to list (4)
+0089.174 (0) finding files: 2013: adding to list (5)
+0089.175 (0) finding files: bfi_thumb: adding to list (6)
+0089.176 (0) finding files: js_composer: adding to list (7)
+0089.177 (0) finding files: 2015: adding to list (8)
+0089.178 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0090.108 (0) Total entities for the zip file: 20 directories, 957 files (0 skipped as non-modified), 149.4 Mb
+0090.117 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0090.121 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 39.1 Mb added on this batch (79 Mb, 957 files batched, 141 (141) added so far); re-opening (prior size: 0 Kb)
+0093.863 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: size is now: 78.60 Mb
+0093.868 (0) A useful amount of data was added after this amount of zip processing: 5.5 s (normalised: 2.7 s, rate: 14747.1 Kb/s)
+0093.871 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.4847350120544, normalised_time=2.7169236767206, max_time=-1, data points known=0, old_max_bytes=41028236, new_max_bytes=90605937)
+0093.875 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 200 files added (on-disk size: 80512.1 Kb)
+0093.879 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 300 files added (on-disk size: 80512.1 Kb)
+0093.885 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 400 files added (on-disk size: 80512.1 Kb)
+0093.891 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 500 files added (on-disk size: 80512.1 Kb)
+0093.896 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 600 files added (on-disk size: 80512.1 Kb)
+0093.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (46.9 Mb, 957 files batched, 501 (642) added so far); re-opening (prior size: 80512.1 Kb)
+0107.617 (0) backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: size is now: 124.30 Mb
+0107.624 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 700 files added (on-disk size: 127254.7 Kb)
+0107.628 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 800 files added (on-disk size: 127254.7 Kb)
+0107.632 (0) Zip: backup_2015-01-31-0017_The_Escape_Room_4631fbbb0d69-uploads.zip.tmp: 900 files added (on-disk size: 127254.7 Kb)
+271451.206 (1) Opened log file at time: Tue, 03 Feb 2015 03:41:49 +0000 on http://theescaperoom.narrativecard.com
+271451.212 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.1 PHP: 5.4.36 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.3M | 47.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+271451.225 (1) Free space on disk containing Updraft's temporary directory: 571488.9 Mb
+271451.227 (1) This backup task began over 2 days ago: aborting (1422934909.8072, 1422663458)

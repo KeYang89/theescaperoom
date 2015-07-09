@@ -1,0 +1,792 @@
+0000.047 (0) Opened log file at time: Sat, 13 Jun 2015 10:44:34 +0000 on http://theescaperoom.narrativecard.com
+0000.056 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.2.2 PHP: 5.4.37 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.6M | 47.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.057 (0) Free space on disk containing Updraft's temporary directory: 351883.1 Mb
+0000.061 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.062 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.138 (0) Requesting semaphore lock (fd)
+0000.141 (0) Semaphore (fd) was stuck, set lock time to 2015-06-13 10:44:34
+0000.143 (0) Semaphore (fd) reset to 1
+0000.144 (0) Set semaphore last lock (fd) time to 2015-06-13 10:44:34
+0000.145 (0) Semaphore lock (fd) complete
+0000.150 (0) Backup run: resumption=0, nonce=5ff8b69492e6, begun at=1434192274 (0s ago), job type=backup
+0000.152 (0) Scheduling a resumption (1) after 300 seconds (1434192574) in case this run gets aborted
+0000.188 (0) Checking if we have a zip executable available
+0000.190 (0) Testing: /usr/bin/zip
+0000.214 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.216 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.218 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.218 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.219 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.233 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.235 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.283 (0) Working binary zip found: /usr/bin/zip
+0000.286 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.287 (0) Creation of backups of directories: beginning
+0000.292 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0003.431 (0) Total entities for the zip file: 609 directories, 3674 files (0 skipped as non-modified), 54.6 Mb
+0003.433 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0003.480 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: size is now: 0.10 Mb
+0003.486 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 100 files added (on-disk size: 135 Kb)
+0003.490 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 200 files added (on-disk size: 135 Kb)
+0003.495 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 300 files added (on-disk size: 135 Kb)
+0003.499 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 400 files added (on-disk size: 135 Kb)
+0003.504 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 500 files added (on-disk size: 135 Kb)
+0003.506 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 Mb, 3674 files batched, 501 (502) added so far); re-opening (prior size: 135 Kb)
+0007.898 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: size is now: 3.80 Mb
+0007.905 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 600 files added (on-disk size: 3899.4 Kb)
+0007.910 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 700 files added (on-disk size: 3899.4 Kb)
+0007.914 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 800 files added (on-disk size: 3899.4 Kb)
+0007.918 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 900 files added (on-disk size: 3899.4 Kb)
+0007.922 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1000 files added (on-disk size: 3899.4 Kb)
+0007.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.8 Mb, 3674 files batched, 501 (1003) added so far); re-opening (prior size: 3899.4 Kb)
+0012.258 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: size is now: 14.70 Mb
+0012.267 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1100 files added (on-disk size: 15085.5 Kb)
+0012.271 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1200 files added (on-disk size: 15085.5 Kb)
+0012.276 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1300 files added (on-disk size: 15085.5 Kb)
+0012.280 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1400 files added (on-disk size: 15085.5 Kb)
+0012.284 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1500 files added (on-disk size: 15085.5 Kb)
+0012.286 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 Mb, 3674 files batched, 501 (1504) added so far); re-opening (prior size: 15085.5 Kb)
+0014.719 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1600 files added (on-disk size: 17268.1 Kb)
+0014.723 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1700 files added (on-disk size: 17268.1 Kb)
+0014.728 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1800 files added (on-disk size: 17268.1 Kb)
+0014.732 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 1900 files added (on-disk size: 17268.1 Kb)
+0014.736 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2000 files added (on-disk size: 17268.1 Kb)
+0014.737 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 Mb, 3674 files batched, 501 (2005) added so far); re-opening (prior size: 17268.1 Kb)
+0018.061 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2100 files added (on-disk size: 18794.1 Kb)
+0018.065 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2200 files added (on-disk size: 18794.1 Kb)
+0018.069 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2300 files added (on-disk size: 18794.1 Kb)
+0018.074 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2400 files added (on-disk size: 18794.1 Kb)
+0018.078 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2500 files added (on-disk size: 18794.1 Kb)
+0018.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 Mb, 3674 files batched, 501 (2506) added so far); re-opening (prior size: 18794.1 Kb)
+0020.920 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2600 files added (on-disk size: 20171.1 Kb)
+0020.924 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2700 files added (on-disk size: 20171.1 Kb)
+0020.929 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2800 files added (on-disk size: 20171.1 Kb)
+0020.933 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 2900 files added (on-disk size: 20171.1 Kb)
+0020.938 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3000 files added (on-disk size: 20171.1 Kb)
+0020.939 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 Mb, 3674 files batched, 501 (3007) added so far); re-opening (prior size: 20171.1 Kb)
+0026.494 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3100 files added (on-disk size: 23636 Kb)
+0026.499 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3200 files added (on-disk size: 23636 Kb)
+0026.503 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3300 files added (on-disk size: 23636 Kb)
+0026.507 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3400 files added (on-disk size: 23636 Kb)
+0026.511 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3500 files added (on-disk size: 23636 Kb)
+0026.513 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 Mb, 3674 files batched, 501 (3508) added so far); re-opening (prior size: 23636 Kb)
+0029.376 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip.tmp: 3600 files added (on-disk size: 25868.8 Kb)
+0031.184 (0) Created plugins zip (0) - 27086.4 Kb in 30.8 s (879.6 Kb/s) (SHA1 checksum: 568754c9989b5e63a6968a0fcdd15413166a639d)
+0031.188 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0033.261 (0) Total entities for the zip file: 342 directories, 2696 files (0 skipped as non-modified), 82.7 Mb
+0033.266 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0033.272 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0033.278 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0033.282 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0033.286 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0033.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 Mb, 2696 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0038.003 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 5.60 Mb
+0038.011 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 600 files added (on-disk size: 5775.7 Kb)
+0038.015 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 700 files added (on-disk size: 5775.7 Kb)
+0038.021 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 800 files added (on-disk size: 5775.7 Kb)
+0038.026 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 900 files added (on-disk size: 5775.7 Kb)
+0038.030 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1000 files added (on-disk size: 5775.7 Kb)
+0038.031 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 Mb, 2696 files batched, 501 (1002) added so far); re-opening (prior size: 5775.7 Kb)
+0042.793 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 10.30 Mb
+0042.803 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1100 files added (on-disk size: 10496.3 Kb)
+0042.807 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1200 files added (on-disk size: 10496.3 Kb)
+0042.811 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1300 files added (on-disk size: 10496.3 Kb)
+0042.816 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1400 files added (on-disk size: 10496.3 Kb)
+0042.820 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1500 files added (on-disk size: 10496.3 Kb)
+0042.821 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.2 Mb, 2696 files batched, 501 (1503) added so far); re-opening (prior size: 10496.3 Kb)
+0048.106 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 17.90 Mb
+0048.118 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1600 files added (on-disk size: 18280 Kb)
+0048.123 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1700 files added (on-disk size: 18280 Kb)
+0048.127 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1800 files added (on-disk size: 18280 Kb)
+0048.131 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 1900 files added (on-disk size: 18280 Kb)
+0048.135 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2000 files added (on-disk size: 18280 Kb)
+0048.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 Mb, 2696 files batched, 501 (2004) added so far); re-opening (prior size: 18280 Kb)
+0053.134 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 21.50 Mb
+0053.150 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2100 files added (on-disk size: 22014.5 Kb)
+0053.154 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2200 files added (on-disk size: 22014.5 Kb)
+0053.158 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2300 files added (on-disk size: 22014.5 Kb)
+0053.162 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2400 files added (on-disk size: 22014.5 Kb)
+0053.166 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2500 files added (on-disk size: 22014.5 Kb)
+0053.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.5 Mb, 2696 files batched, 501 (2505) added so far); re-opening (prior size: 22014.5 Kb)
+0057.781 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 30.70 Mb
+0057.791 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: 2600 files added (on-disk size: 31391.8 Kb)
+0057.793 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.7 Mb, 2696 files batched, 118 (2623) added so far); re-opening (prior size: 31391.8 Kb)
+0060.333 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.7 s, rate: 9314.9 Kb/s)
+0060.337 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8213748931885, normalised_time=2.7482723213693, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=57231009)
+0062.400 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip.tmp: size is now: 42.80 Mb
+0062.644 (0) Created themes zip (0) - 43872.9 Kb in 31.5 s (1394.8 Kb/s) (SHA1 checksum: 333001477ed370e6e51dd820a07ecd084d1cf10c)
+0062.647 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0062.649 (0) Looking for candidates to back up in: /home/keyan2/theescaperoom.narrativecard.com/wp-content/uploads
+0062.650 (0) finding files: .htaccess: adding to list (1)
+0062.651 (0) finding files: 2014: adding to list (2)
+0062.652 (0) finding files: appointments-log.txt: adding to list (3)
+0062.653 (0) finding files: woocommerce_uploads: adding to list (4)
+0062.654 (0) finding files: 2013: adding to list (5)
+0062.655 (0) finding files: bfi_thumb: adding to list (6)
+0062.656 (0) finding files: js_composer: adding to list (7)
+0062.657 (0) finding files: 2015: adding to list (8)
+0062.658 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0063.403 (0) Total entities for the zip file: 25 directories, 960 files (0 skipped as non-modified), 149.7 Mb
+0063.407 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0063.410 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 54.6 Mb added on this batch (79 Mb, 960 files batched, 141 (141) added so far); re-opening (prior size: 0 Kb)
+0066.712 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: size is now: 78.60 Mb
+0066.717 (0) A useful amount of data was added after this amount of zip processing: 4.2 s (normalised: 2.9 s, rate: 19234.8 Kb/s)
+0066.719 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.205069065094, normalised_time=2.9056511986502, max_time=-1, data points known=0, old_max_bytes=57231009, new_max_bytes=118178690)
+0066.723 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 200 files added (on-disk size: 80512.9 Kb)
+0066.727 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 300 files added (on-disk size: 80512.9 Kb)
+0066.731 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 400 files added (on-disk size: 80512.9 Kb)
+0066.743 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 500 files added (on-disk size: 80512.9 Kb)
+0066.747 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 600 files added (on-disk size: 80512.9 Kb)
+0066.750 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (46.9 Mb, 960 files batched, 501 (642) added so far); re-opening (prior size: 80512.9 Kb)
+0076.868 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: size is now: 124.30 Mb
+0076.874 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 700 files added (on-disk size: 127255.5 Kb)
+0076.878 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 800 files added (on-disk size: 127255.5 Kb)
+0076.882 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip.tmp: 900 files added (on-disk size: 127255.5 Kb)
+0084.397 (0) Created uploads zip (0) - 151530.9 Kb in 21.7 s (6971.1 Kb/s) (SHA1 checksum: b85491c089c5050a4523ed777de5d5f2dd2b9917)
+0084.401 (0) Beginning backup of other directories found in the content directory (index: 0)
+0084.402 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0084.403 (0) Looking for candidates to back up in: /home/keyan2/theescaperoom.narrativecard.com/wp-content
+0084.404 (0) finding files: themes: skipping: this is the themes directory
+0084.405 (0) finding files: plugins: skipping: this is the plugins directory
+0084.406 (0) finding files: uploads: skipping: this is the uploads directory
+0084.407 (0) finding files: upgrade: skipping: excluded by options
+0084.408 (0) finding files: updraft: skipping: this is the updraft directory
+0084.409 (0) finding files: easy-pie-maintenance-mode: adding to list (1)
+0084.410 (0) finding files: languages: adding to list (2)
+0084.411 (0) finding files: envato-backups: skipping: excluded by options (glob)
+0084.412 (0) finding files: mu-plugins: adding to list (3)
+0084.412 (0) finding files: gallery-bank: adding to list (4)
+0084.414 (0) finding files: object-cache.php: adding to list (5)
+0084.415 (0) finding files: 02.jpg: adding to list (6)
+0084.415 (0) finding files: index.php: adding to list (7)
+0084.486 (0) Total entities for the zip file: 14 directories, 135 files (0 skipped as non-modified), 1.4 Mb
+0084.490 (0) Zip: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0085.340 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip.tmp: size is now: 1.10 Mb
+0085.354 (0) Created others zip (0) - 1099.2 Kb in 0.9 s (1174.1 Kb/s) (SHA1 checksum: c6cd38c884f6a487900cfa63cca788f0db9f2ccb)
+0085.361 (0) Saving backup status to database (elements: 8)
+0085.365 (0) Beginning creation of database dump (WordPress DB)
+0085.368 (0) Testing: /usr/bin/mysqldump
+0085.435 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0085.536 (0) Table wp_g9tctsj6cd_options: Total expected rows (approximate): 584
+0085.583 (0) Table wp_g9tctsj6cd_options: Total rows added: 333 in 0.05 seconds
+0085.586 (0) Table wp_g9tctsj6cd_options: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_options.table.gz - 95.9 Kb)
+0085.622 (0) Table wp_g9tctsj6cd_users: Total expected rows (approximate): 11
+0085.627 (0) Table wp_g9tctsj6cd_users: Total rows added: 11 in 0.00 seconds
+0085.628 (0) Table wp_g9tctsj6cd_users: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_users.table.gz - 1.2 Kb)
+0085.674 (0) Table wp_g9tctsj6cd_usermeta: Total expected rows (approximate): 337
+0085.686 (0) Table wp_g9tctsj6cd_usermeta: Total rows added: 259 in 0.01 seconds
+0085.688 (0) Table wp_g9tctsj6cd_usermeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_usermeta.table.gz - 4.7 Kb)
+0085.729 (0) Table wp_g9tctsj6cd_commentmeta: Total expected rows (approximate): 2
+0085.733 (0) Table wp_g9tctsj6cd_commentmeta: Total rows added: 2 in 0.00 seconds
+0085.734 (0) Table wp_g9tctsj6cd_commentmeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_commentmeta.table.gz - 0.5 Kb)
+0085.777 (0) Table wp_g9tctsj6cd_comments: Total expected rows (approximate): 0
+0085.782 (0) Table wp_g9tctsj6cd_comments: Total rows added: 0 in 0.00 seconds
+0085.783 (0) Table wp_g9tctsj6cd_comments: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_comments.table.gz - 0.5 Kb)
+0085.810 (0) Table wp_g9tctsj6cd_links: Total expected rows (approximate): 0
+0085.815 (0) Table wp_g9tctsj6cd_links: Total rows added: 0 in 0.00 seconds
+0085.816 (0) Table wp_g9tctsj6cd_links: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_links.table.gz - 0.4 Kb)
+0085.890 (0) Table wp_g9tctsj6cd_postmeta: Total expected rows (approximate): 4372
+0086.095 (0) Table wp_g9tctsj6cd_postmeta: Total rows added: 5470 in 0.20 seconds
+0086.098 (0) Table wp_g9tctsj6cd_postmeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_postmeta.table.gz - 46.8 Kb)
+0086.193 (0) Table wp_g9tctsj6cd_posts: Total expected rows (approximate): 532
+0086.444 (0) Table wp_g9tctsj6cd_posts: Total rows added: 661 in 0.25 seconds
+0086.447 (0) Table wp_g9tctsj6cd_posts: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_posts.table.gz - 127.2 Kb)
+0086.509 (0) Table wp_g9tctsj6cd_term_relationships: Total expected rows (approximate): 54
+0086.514 (0) Table wp_g9tctsj6cd_term_relationships: Total rows added: 54 in 0.00 seconds
+0086.516 (0) Table wp_g9tctsj6cd_term_relationships: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_term_relationships.table.gz - 0.5 Kb)
+0086.531 (0) Table wp_g9tctsj6cd_term_taxonomy: Total expected rows (approximate): 84
+0086.537 (0) Table wp_g9tctsj6cd_term_taxonomy: Total rows added: 84 in 0.00 seconds
+0086.539 (0) Table wp_g9tctsj6cd_term_taxonomy: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_term_taxonomy.table.gz - 0.9 Kb)
+0086.551 (0) Table wp_g9tctsj6cd_terms: Total expected rows (approximate): 83
+0086.557 (0) Table wp_g9tctsj6cd_terms: Total rows added: 83 in 0.00 seconds
+0086.559 (0) Table wp_g9tctsj6cd_terms: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_terms.table.gz - 1.4 Kb)
+0086.564 (0) Table wp_g9tctsj6cd_app_appointments: Total expected rows (approximate): 48
+0086.575 (0) Table wp_g9tctsj6cd_app_appointments: Total rows added: 48 in 0.01 seconds
+0086.576 (0) Table wp_g9tctsj6cd_app_appointments: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_appointments.table.gz - 1.3 Kb)
+0086.586 (0) Table wp_g9tctsj6cd_app_cache: Total expected rows (approximate): 0
+0086.589 (0) Table wp_g9tctsj6cd_app_cache: Total rows added: 0 in 0.00 seconds
+0086.590 (0) Table wp_g9tctsj6cd_app_cache: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_cache.table.gz - 0.3 Kb)
+0086.599 (0) Table wp_g9tctsj6cd_app_exceptions: Total expected rows (approximate): 0
+0086.603 (0) Table wp_g9tctsj6cd_app_exceptions: Total rows added: 0 in 0.00 seconds
+0086.604 (0) Table wp_g9tctsj6cd_app_exceptions: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_exceptions.table.gz - 0.3 Kb)
+0086.638 (0) Table wp_g9tctsj6cd_app_services: Total expected rows (approximate): 5
+0086.642 (0) Table wp_g9tctsj6cd_app_services: Total rows added: 5 in 0.00 seconds
+0086.644 (0) Table wp_g9tctsj6cd_app_services: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_services.table.gz - 0.4 Kb)
+0086.649 (0) Table wp_g9tctsj6cd_app_transactions: Total expected rows (approximate): 0
+0086.653 (0) Table wp_g9tctsj6cd_app_transactions: Total rows added: 0 in 0.00 seconds
+0086.654 (0) Table wp_g9tctsj6cd_app_transactions: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_transactions.table.gz - 0.4 Kb)
+0086.660 (0) Table wp_g9tctsj6cd_app_workers: Total expected rows (approximate): 5
+0086.664 (0) Table wp_g9tctsj6cd_app_workers: Total rows added: 5 in 0.00 seconds
+0086.665 (0) Table wp_g9tctsj6cd_app_workers: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_workers.table.gz - 0.4 Kb)
+0086.671 (0) Table wp_g9tctsj6cd_app_working_hours: Total expected rows (approximate): 12
+0086.675 (0) Table wp_g9tctsj6cd_app_working_hours: Total rows added: 12 in 0.00 seconds
+0086.682 (0) Table wp_g9tctsj6cd_app_working_hours: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_working_hours.table.gz - 0.7 Kb)
+0086.692 (0) Table wp_g9tctsj6cd_duplicator_packages: Total expected rows (approximate): 0
+0086.696 (0) Table wp_g9tctsj6cd_duplicator_packages: Total rows added: 0 in 0.00 seconds
+0086.697 (0) Table wp_g9tctsj6cd_duplicator_packages: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_duplicator_packages.table.gz - 0.4 Kb)
+0086.703 (0) Table wp_g9tctsj6cd_gallery_albums: Total expected rows (approximate): 1
+0086.707 (0) Table wp_g9tctsj6cd_gallery_albums: Total rows added: 1 in 0.00 seconds
+0086.709 (0) Table wp_g9tctsj6cd_gallery_albums: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_albums.table.gz - 0.4 Kb)
+0086.714 (0) Table wp_g9tctsj6cd_gallery_pics: Total expected rows (approximate): 5
+0086.719 (0) Table wp_g9tctsj6cd_gallery_pics: Total rows added: 5 in 0.00 seconds
+0086.721 (0) Table wp_g9tctsj6cd_gallery_pics: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_pics.table.gz - 2.4 Kb)
+0086.727 (0) Table wp_g9tctsj6cd_gallery_settings: Total expected rows (approximate): 78
+0086.732 (0) Table wp_g9tctsj6cd_gallery_settings: Total rows added: 78 in 0.00 seconds
+0086.734 (0) Table wp_g9tctsj6cd_gallery_settings: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_settings.table.gz - 1.1 Kb)
+0086.740 (0) Table wp_g9tctsj6cd_layerslider: Total expected rows (approximate): 1
+0086.751 (0) Table wp_g9tctsj6cd_layerslider: Total rows added: 1 in 0.01 seconds
+0086.753 (0) Table wp_g9tctsj6cd_layerslider: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_layerslider.table.gz - 2.7 Kb)
+0086.758 (0) Table wp_g9tctsj6cd_m_communications: Total expected rows (approximate): 0
+0086.761 (0) Table wp_g9tctsj6cd_m_communications: Total rows added: 0 in 0.00 seconds
+0086.763 (0) Table wp_g9tctsj6cd_m_communications: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_communications.table.gz - 0.4 Kb)
+0086.769 (0) Table wp_g9tctsj6cd_m_coupons: Total expected rows (approximate): 2
+0086.773 (0) Table wp_g9tctsj6cd_m_coupons: Total rows added: 2 in 0.00 seconds
+0086.774 (0) Table wp_g9tctsj6cd_m_coupons: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_coupons.table.gz - 0.5 Kb)
+0086.780 (0) Table wp_g9tctsj6cd_m_levelmeta: Total expected rows (approximate): 6
+0086.784 (0) Table wp_g9tctsj6cd_m_levelmeta: Total rows added: 6 in 0.00 seconds
+0086.785 (0) Table wp_g9tctsj6cd_m_levelmeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_levelmeta.table.gz - 0.5 Kb)
+0086.791 (0) Table wp_g9tctsj6cd_m_member_payments: Total expected rows (approximate): 0
+0086.794 (0) Table wp_g9tctsj6cd_m_member_payments: Total rows added: 0 in 0.00 seconds
+0086.796 (0) Table wp_g9tctsj6cd_m_member_payments: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_member_payments.table.gz - 0.3 Kb)
+0086.802 (0) Table wp_g9tctsj6cd_m_membership_levels: Total expected rows (approximate): 2
+0086.805 (0) Table wp_g9tctsj6cd_m_membership_levels: Total rows added: 2 in 0.00 seconds
+0086.807 (0) Table wp_g9tctsj6cd_m_membership_levels: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_levels.table.gz - 0.4 Kb)
+0086.814 (0) Table wp_g9tctsj6cd_m_membership_news: Total expected rows (approximate): 0
+0086.817 (0) Table wp_g9tctsj6cd_m_membership_news: Total rows added: 0 in 0.00 seconds
+0086.818 (0) Table wp_g9tctsj6cd_m_membership_news: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_news.table.gz - 0.3 Kb)
+0086.824 (0) Table wp_g9tctsj6cd_m_membership_relationships: Total expected rows (approximate): 0
+0086.827 (0) Table wp_g9tctsj6cd_m_membership_relationships: Total rows added: 0 in 0.00 seconds
+0086.829 (0) Table wp_g9tctsj6cd_m_membership_relationships: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_relationships.table.gz - 0.4 Kb)
+0086.835 (0) Table wp_g9tctsj6cd_m_membership_rules: Total expected rows (approximate): 7
+0086.838 (0) Table wp_g9tctsj6cd_m_membership_rules: Total rows added: 7 in 0.00 seconds
+0086.840 (0) Table wp_g9tctsj6cd_m_membership_rules: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_rules.table.gz - 0.6 Kb)
+0086.846 (0) Table wp_g9tctsj6cd_m_ping_history: Total expected rows (approximate): 0
+0086.849 (0) Table wp_g9tctsj6cd_m_ping_history: Total rows added: 0 in 0.00 seconds
+0086.850 (0) Table wp_g9tctsj6cd_m_ping_history: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_ping_history.table.gz - 0.3 Kb)
+0086.856 (0) Table wp_g9tctsj6cd_m_pings: Total expected rows (approximate): 0
+0086.859 (0) Table wp_g9tctsj6cd_m_pings: Total rows added: 0 in 0.00 seconds
+0086.860 (0) Table wp_g9tctsj6cd_m_pings: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_pings.table.gz - 0.3 Kb)
+0086.866 (0) Table wp_g9tctsj6cd_m_subscription_transaction: Total expected rows (approximate): 0
+0086.870 (0) Table wp_g9tctsj6cd_m_subscription_transaction: Total rows added: 0 in 0.00 seconds
+0086.871 (0) Table wp_g9tctsj6cd_m_subscription_transaction: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscription_transaction.table.gz - 0.4 Kb)
+0086.877 (0) Table wp_g9tctsj6cd_m_subscriptionmeta: Total expected rows (approximate): 0
+0086.880 (0) Table wp_g9tctsj6cd_m_subscriptionmeta: Total rows added: 0 in 0.00 seconds
+0086.882 (0) Table wp_g9tctsj6cd_m_subscriptionmeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptionmeta.table.gz - 0.4 Kb)
+0086.888 (0) Table wp_g9tctsj6cd_m_subscriptions: Total expected rows (approximate): 0
+0086.891 (0) Table wp_g9tctsj6cd_m_subscriptions: Total rows added: 0 in 0.00 seconds
+0086.893 (0) Table wp_g9tctsj6cd_m_subscriptions: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptions.table.gz - 0.4 Kb)
+0086.898 (0) Table wp_g9tctsj6cd_m_subscriptions_levels: Total expected rows (approximate): 0
+0086.902 (0) Table wp_g9tctsj6cd_m_subscriptions_levels: Total rows added: 0 in 0.00 seconds
+0086.903 (0) Table wp_g9tctsj6cd_m_subscriptions_levels: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptions_levels.table.gz - 0.4 Kb)
+0086.910 (0) Table wp_g9tctsj6cd_m_urlgroups: Total expected rows (approximate): 0
+0086.912 (0) Table wp_g9tctsj6cd_m_urlgroups: Total rows added: 0 in 0.00 seconds
+0086.914 (0) Table wp_g9tctsj6cd_m_urlgroups: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_urlgroups.table.gz - 0.3 Kb)
+0086.919 (0) Table wp_g9tctsj6cd_redirects: Total expected rows (approximate): 1
+0086.923 (0) Table wp_g9tctsj6cd_redirects: Total rows added: 1 in 0.00 seconds
+0086.924 (0) Table wp_g9tctsj6cd_redirects: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_redirects.table.gz - 0.4 Kb)
+0086.955 (0) Table wp_g9tctsj6cd_revslider_css: Total expected rows (approximate): 47
+0086.961 (0) Table wp_g9tctsj6cd_revslider_css: Total rows added: 47 in 0.01 seconds
+0086.963 (0) Table wp_g9tctsj6cd_revslider_css: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_css.table.gz - 1.8 Kb)
+0086.979 (0) Table wp_g9tctsj6cd_revslider_layer_animations: Total expected rows (approximate): 0
+0086.982 (0) Table wp_g9tctsj6cd_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0086.984 (0) Table wp_g9tctsj6cd_revslider_layer_animations: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_layer_animations.table.gz - 0.3 Kb)
+0087.003 (0) Table wp_g9tctsj6cd_revslider_settings: Total expected rows (approximate): 0
+0087.007 (0) Table wp_g9tctsj6cd_revslider_settings: Total rows added: 0 in 0.00 seconds
+0087.008 (0) Table wp_g9tctsj6cd_revslider_settings: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_settings.table.gz - 0.3 Kb)
+0087.014 (0) Table wp_g9tctsj6cd_revslider_sliders: Total expected rows (approximate): 1
+0087.018 (0) Table wp_g9tctsj6cd_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0087.019 (0) Table wp_g9tctsj6cd_revslider_sliders: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_sliders.table.gz - 1.5 Kb)
+0087.028 (0) Table wp_g9tctsj6cd_revslider_slides: Total expected rows (approximate): 5
+0087.032 (0) Table wp_g9tctsj6cd_revslider_slides: Total rows added: 5 in 0.00 seconds
+0087.033 (0) Table wp_g9tctsj6cd_revslider_slides: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_slides.table.gz - 0.6 Kb)
+0087.039 (0) Table wp_g9tctsj6cd_revslider_static_slides: Total expected rows (approximate): 0
+0087.042 (0) Table wp_g9tctsj6cd_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0087.043 (0) Table wp_g9tctsj6cd_revslider_static_slides: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_static_slides.table.gz - 0.3 Kb)
+0087.049 (0) Table wp_g9tctsj6cd_wce_editor_content: Total expected rows (approximate): 2
+0087.054 (0) Table wp_g9tctsj6cd_wce_editor_content: Total rows added: 2 in 0.00 seconds
+0087.056 (0) Table wp_g9tctsj6cd_wce_editor_content: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_wce_editor_content.table.gz - 5.1 Kb)
+0087.082 (0) Table wp_g9tctsj6cd_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0087.085 (0) Table wp_g9tctsj6cd_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0087.086 (0) Table wp_g9tctsj6cd_woocommerce_order_itemmeta: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_woocommerce_order_itemmeta.table.gz - 0.3 Kb)
+0087.105 (0) Table wp_g9tctsj6cd_woocommerce_order_items: Total expected rows (approximate): 0
+0087.108 (0) Table wp_g9tctsj6cd_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0087.110 (0) Table wp_g9tctsj6cd_woocommerce_order_items: finishing file (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_woocommerce_order_items.table.gz - 0.3 Kb)
+0087.115 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_options.table.gz (1/48): adding to final database dump
+0087.143 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_users.table.gz (2/48): adding to final database dump
+0087.145 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_usermeta.table.gz (3/48): adding to final database dump
+0087.149 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_commentmeta.table.gz (4/48): adding to final database dump
+0087.150 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_comments.table.gz (5/48): adding to final database dump
+0087.152 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_links.table.gz (6/48): adding to final database dump
+0087.153 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_postmeta.table.gz (7/48): adding to final database dump
+0087.189 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_posts.table.gz (8/48): adding to final database dump
+0087.262 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_term_relationships.table.gz (9/48): adding to final database dump
+0087.265 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_term_taxonomy.table.gz (10/48): adding to final database dump
+0087.267 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_terms.table.gz (11/48): adding to final database dump
+0087.268 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_appointments.table.gz (12/48): adding to final database dump
+0087.270 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_cache.table.gz (13/48): adding to final database dump
+0087.272 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_exceptions.table.gz (14/48): adding to final database dump
+0087.273 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_services.table.gz (15/48): adding to final database dump
+0087.275 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_transactions.table.gz (16/48): adding to final database dump
+0087.276 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_workers.table.gz (17/48): adding to final database dump
+0087.278 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_app_working_hours.table.gz (18/48): adding to final database dump
+0087.279 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_duplicator_packages.table.gz (19/48): adding to final database dump
+0087.280 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_albums.table.gz (20/48): adding to final database dump
+0087.282 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_pics.table.gz (21/48): adding to final database dump
+0087.284 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_gallery_settings.table.gz (22/48): adding to final database dump
+0087.286 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_layerslider.table.gz (23/48): adding to final database dump
+0087.288 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_communications.table.gz (24/48): adding to final database dump
+0087.290 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_coupons.table.gz (25/48): adding to final database dump
+0087.291 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_levelmeta.table.gz (26/48): adding to final database dump
+0087.293 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_member_payments.table.gz (27/48): adding to final database dump
+0087.295 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_levels.table.gz (28/48): adding to final database dump
+0087.296 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_news.table.gz (29/48): adding to final database dump
+0087.297 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_relationships.table.gz (30/48): adding to final database dump
+0087.299 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_membership_rules.table.gz (31/48): adding to final database dump
+0087.300 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_ping_history.table.gz (32/48): adding to final database dump
+0087.301 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_pings.table.gz (33/48): adding to final database dump
+0087.303 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscription_transaction.table.gz (34/48): adding to final database dump
+0087.304 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptionmeta.table.gz (35/48): adding to final database dump
+0087.306 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptions.table.gz (36/48): adding to final database dump
+0087.307 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_subscriptions_levels.table.gz (37/48): adding to final database dump
+0087.309 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_m_urlgroups.table.gz (38/48): adding to final database dump
+0087.310 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_redirects.table.gz (39/48): adding to final database dump
+0087.312 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_css.table.gz (40/48): adding to final database dump
+0087.313 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_layer_animations.table.gz (41/48): adding to final database dump
+0087.315 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_settings.table.gz (42/48): adding to final database dump
+0087.316 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_sliders.table.gz (43/48): adding to final database dump
+0087.318 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_slides.table.gz (44/48): adding to final database dump
+0087.319 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_revslider_static_slides.table.gz (45/48): adding to final database dump
+0087.321 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_wce_editor_content.table.gz (46/48): adding to final database dump
+0087.324 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_woocommerce_order_itemmeta.table.gz (47/48): adding to final database dump
+0087.325 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db-table-wp_g9tctsj6cd_woocommerce_order_items.table.gz (48/48): adding to final database dump
+0087.327 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: finished writing out complete database file (256 Kb)
+0087.335 (0) Total database tables backed up: 48 (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz, size: 303454, checksum (SHA1): 07903105e504e92fb096250f5f88060ce6c3bab3)
+0087.338 (0) Saving backup history
+0087.345 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0087.346 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0087.347 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0087.348 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0087.349 (0) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0087.353 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0087.357 (0) Cloud backup selection: dropbox
+0087.358 (0) Beginning dispatch of backup to remote (dropbox)
+0087.359 (0) Dropbox: begin cloud upload
+0087.364 (0) Dropbox: access gained
+0088.102 (0) Dropbox quota usage: normal=607.9 Mb, shared=0 Mb, total=7936 Mb, available=7328.1 Mb
+0088.104 (0) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip
+0089.489 (0) Dropbox chunked upload: 3.8 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 1048576)
+0090.386 (0) Dropbox chunked upload: 7.6 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 2097152)
+0092.141 (0) Dropbox chunked upload: 11.3 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 3145728)
+0094.090 (0) Dropbox chunked upload: 15.1 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 4194304)
+0095.019 (0) Dropbox chunked upload: 18.9 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 5242880)
+0095.975 (0) Dropbox chunked upload: 22.7 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 6291456)
+0097.204 (0) Dropbox chunked upload: 26.5 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 7340032)
+0099.418 (0) Dropbox chunked upload: 30.2 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 8388608)
+0100.085 (0) Dropbox chunked upload: 34 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 9437184)
+0100.950 (0) Dropbox chunked upload: 37.8 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 10485760)
+0102.054 (0) Dropbox chunked upload: 41.6 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 11534336)
+0104.379 (0) Dropbox chunked upload: 45.4 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 12582912)
+0105.184 (0) Dropbox chunked upload: 49.1 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 13631488)
+0106.045 (0) Dropbox chunked upload: 52.9 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 14680064)
+0107.344 (0) Dropbox chunked upload: 56.7 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 15728640)
+0109.165 (0) Dropbox chunked upload: 60.5 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 16777216)
+0109.849 (0) Dropbox chunked upload: 64.3 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 17825792)
+0110.769 (0) Dropbox chunked upload: 68 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 18874368)
+0111.853 (0) Dropbox chunked upload: 71.8 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 19922944)
+0113.871 (0) Dropbox chunked upload: 75.6 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 20971520)
+0114.608 (0) Dropbox chunked upload: 79.4 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 22020096)
+0115.623 (0) Dropbox chunked upload: 83.2 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 23068672)
+0116.663 (0) Dropbox chunked upload: 87 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 24117248)
+0118.407 (0) Dropbox chunked upload: 90.7 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 25165824)
+0119.172 (0) Dropbox chunked upload: 94.5 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 26214400)
+0120.111 (0) Dropbox chunked upload: 98.3 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 27262976)
+0120.961 (0) Dropbox chunked upload: 100 % uploaded (dsX5u6MUZyxz_-7RNUNpSQ, 27736498)
+0122.808 (0) Recording as successfully uploaded: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip (c7cf1d55c3aa1a9ce3618c274fac6653)
+0122.822 (0) Deleting local file: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip: OK
+0122.824 (0) Dropbox: File upload success (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip): 27086 Kb in 34s (780 Kb/s)
+0123.309 (0) Dropbox quota usage: normal=634.4 Mb, shared=0 Mb, total=7936 Mb, available=7301.6 Mb
+0123.311 (0) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip
+0124.005 (0) Dropbox chunked upload: 2.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 1048576)
+0124.809 (0) Dropbox chunked upload: 4.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 2097152)
+0126.005 (0) Dropbox chunked upload: 7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 3145728)
+1222.955 (1) Opened log file at time: Sat, 13 Jun 2015 11:04:57 +0000 on http://theescaperoom.narrativecard.com
+1222.956 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.2.2 PHP: 5.4.37 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 47.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1222.958 (1) Free space on disk containing Updraft's temporary directory: 353557.6 Mb
+1222.960 (1) Backup run: resumption=1, nonce=5ff8b69492e6, begun at=1434192274 (1223s ago), job type=backup, previous check-in=126s
+1222.961 (1) Long time past since expected resumption time: approx expected=1434192700.6, now=1434193497.4, diff=796.8
+1222.964 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1222.967 (1) Scheduling a resumption (2) after 300 seconds (1434193797) in case this run gets aborted
+1222.977 (1) Checking if we have a zip executable available
+1222.979 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1222.980 (1) Creation of backups of directories: already finished
+1222.981 (1) Saving backup status to database (elements: 8)
+1222.985 (1) Database dump (WordPress DB): Creation was completed already
+1222.986 (1) Saving backup history
+1222.994 (1) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip: plugins: This file has already been successfully uploaded
+1222.995 (1) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1222.995 (1) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1222.996 (1) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip: others: This file has not yet been successfully uploaded: will queue
+1222.998 (1) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: db: This file has not yet been successfully uploaded: will queue
+1223.002 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+1223.003 (1) Cloud backup selection: dropbox
+1223.006 (1) Beginning dispatch of backup to remote (dropbox)
+1223.008 (1) Dropbox: begin cloud upload
+1223.013 (1) Dropbox: access gained
+1226.854 (1) Dropbox quota usage: normal=634.4 Mb, shared=0 Mb, total=7936 Mb, available=7301.6 Mb
+1226.856 (1) This is a resumption: 3145728 bytes had already been uploaded
+1226.857 (1) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip
+1227.186 (1) Dropbox chunked upload exception (Dropbox_BadRequestException): Submitted input out of alignment: got [3145728] expected [4194304] (line: 169, file: /home/keyan2/theescaperoom.narrativecard.com/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1227.188 (1) Dropbox not yet aligned: tried=3145728, wanted=4194304; will attempt recovery
+1227.903 (1) Dropbox chunked upload: 11.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 5242880)
+1229.088 (1) Dropbox chunked upload: 14 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 6291456)
+1230.291 (1) Dropbox chunked upload: 16.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 7340032)
+1232.303 (1) Dropbox chunked upload: 18.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 8388608)
+1233.016 (1) Dropbox chunked upload: 21 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 9437184)
+1233.948 (1) Dropbox chunked upload: 23.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 10485760)
+1235.152 (1) Dropbox chunked upload: 25.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 11534336)
+1237.273 (1) Dropbox chunked upload: 28 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 12582912)
+1237.971 (1) Dropbox chunked upload: 30.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 13631488)
+1238.820 (1) Dropbox chunked upload: 32.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 14680064)
+1239.962 (1) Dropbox chunked upload: 35 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 15728640)
+1241.983 (1) Dropbox chunked upload: 37.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 16777216)
+1242.707 (1) Dropbox chunked upload: 39.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 17825792)
+1243.896 (1) Dropbox chunked upload: 42 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 18874368)
+1244.818 (1) Dropbox chunked upload: 44.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 19922944)
+1246.731 (1) Dropbox chunked upload: 46.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 20971520)
+1247.427 (1) Dropbox chunked upload: 49 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 22020096)
+1248.252 (1) Dropbox chunked upload: 51.3 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 23068672)
+1249.324 (1) Dropbox chunked upload: 53.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 24117248)
+1251.457 (1) Dropbox chunked upload: 56 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 25165824)
+1252.110 (1) Dropbox chunked upload: 58.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 26214400)
+1253.048 (1) Dropbox chunked upload: 60.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 27262976)
+1254.489 (1) Dropbox chunked upload: 63 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 28311552)
+1256.680 (1) Dropbox chunked upload: 65.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 29360128)
+1257.737 (1) Dropbox chunked upload: 67.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 30408704)
+1258.593 (1) Dropbox chunked upload: 70 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 31457280)
+1260.187 (1) Dropbox chunked upload: 72.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 32505856)
+1262.583 (1) Dropbox chunked upload: 74.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 33554432)
+1263.341 (1) Dropbox chunked upload: 77 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 34603008)
+1264.145 (1) Dropbox chunked upload: 79.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 35651584)
+1265.245 (1) Dropbox chunked upload: 81.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 36700160)
+1267.339 (1) Dropbox chunked upload: 84 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 37748736)
+1267.998 (1) Dropbox chunked upload: 86.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 38797312)
+1268.837 (1) Dropbox chunked upload: 88.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 39845888)
+1270.012 (1) Dropbox chunked upload: 91 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 40894464)
+1272.556 (1) Dropbox chunked upload: 93.4 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 41943040)
+1273.292 (1) Dropbox chunked upload: 95.7 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 42991616)
+1274.596 (1) Dropbox chunked upload: 98 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 44040192)
+1275.624 (1) Dropbox chunked upload: 100 % uploaded (kJngTUEf6TOge-ZnEr6Z-Q, 44925893)
+1277.219 (1) Recording as successfully uploaded: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip (f6a1ea8f1f76a7e8025262cd25b0e0a7)
+1277.240 (1) Deleting local file: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip: OK
+1277.242 (1) Dropbox: File upload success (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip): 43872 Kb in 50s (870 Kb/s)
+1277.717 (1) Dropbox quota usage: normal=677.2 Mb, shared=0 Mb, total=7936 Mb, available=7258.8 Mb
+1277.718 (1) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip
+1278.371 (1) Dropbox chunked upload: 0.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 1048576)
+1279.192 (1) Dropbox chunked upload: 1.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 2097152)
+1280.341 (1) Dropbox chunked upload: 2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 3145728)
+1282.207 (1) Dropbox chunked upload: 2.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 4194304)
+1283.109 (1) Dropbox chunked upload: 3.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 5242880)
+1284.427 (1) Dropbox chunked upload: 4.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 6291456)
+1285.501 (1) Dropbox chunked upload: 4.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 7340032)
+1287.672 (1) Dropbox chunked upload: 5.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 8388608)
+1288.783 (1) Dropbox chunked upload: 6.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 9437184)
+1289.837 (1) Dropbox chunked upload: 6.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 10485760)
+1290.849 (1) Dropbox chunked upload: 7.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 11534336)
+1292.873 (1) Dropbox chunked upload: 8.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 12582912)
+1293.670 (1) Dropbox chunked upload: 8.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 13631488)
+1294.543 (1) Dropbox chunked upload: 9.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 14680064)
+1295.537 (1) Dropbox chunked upload: 10.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 15728640)
+1297.397 (1) Dropbox chunked upload: 10.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 16777216)
+1298.055 (1) Dropbox chunked upload: 11.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 17825792)
+1298.876 (1) Dropbox chunked upload: 12.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 18874368)
+1301.893 (1) Dropbox chunked upload: 12.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 19922944)
+1303.658 (1) Dropbox chunked upload: 13.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 20971520)
+1304.303 (1) Dropbox chunked upload: 14.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 22020096)
+1305.131 (1) Dropbox chunked upload: 14.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 23068672)
+1306.209 (1) Dropbox chunked upload: 15.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 24117248)
+1308.115 (1) Dropbox chunked upload: 16.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 25165824)
+1308.983 (1) Dropbox chunked upload: 16.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 26214400)
+1309.841 (1) Dropbox chunked upload: 17.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 27262976)
+1310.874 (1) Dropbox chunked upload: 18.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 28311552)
+1313.152 (1) Dropbox chunked upload: 18.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 29360128)
+1313.843 (1) Dropbox chunked upload: 19.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 30408704)
+1314.814 (1) Dropbox chunked upload: 20.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 31457280)
+1315.750 (1) Dropbox chunked upload: 20.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 32505856)
+1318.477 (1) Dropbox chunked upload: 21.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 33554432)
+1319.743 (1) Dropbox chunked upload: 22.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 34603008)
+1320.583 (1) Dropbox chunked upload: 23 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 35651584)
+1321.733 (1) Dropbox chunked upload: 23.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 36700160)
+1324.005 (1) Dropbox chunked upload: 24.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 37748736)
+1324.711 (1) Dropbox chunked upload: 25 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 38797312)
+1325.554 (1) Dropbox chunked upload: 25.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 39845888)
+1326.643 (1) Dropbox chunked upload: 26.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 40894464)
+1328.644 (1) Dropbox chunked upload: 27 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 41943040)
+1329.294 (1) Dropbox chunked upload: 27.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 42991616)
+1330.165 (1) Dropbox chunked upload: 28.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 44040192)
+1331.448 (1) Dropbox chunked upload: 29.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 45088768)
+1333.857 (1) Dropbox chunked upload: 29.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 46137344)
+1334.568 (1) Dropbox chunked upload: 30.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 47185920)
+1335.468 (1) Dropbox chunked upload: 31.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 48234496)
+1336.440 (1) Dropbox chunked upload: 31.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 49283072)
+1339.044 (1) Dropbox chunked upload: 32.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 50331648)
+1339.723 (1) Dropbox chunked upload: 33.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 51380224)
+1340.473 (1) Dropbox chunked upload: 33.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 52428800)
+1341.564 (1) Dropbox chunked upload: 34.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 53477376)
+1343.668 (1) Dropbox chunked upload: 35.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 54525952)
+1344.409 (1) Dropbox chunked upload: 35.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 55574528)
+1345.222 (1) Dropbox chunked upload: 36.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 56623104)
+1346.426 (1) Dropbox chunked upload: 37.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 57671680)
+1348.661 (1) Dropbox chunked upload: 37.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 58720256)
+1350.067 (1) Dropbox chunked upload: 38.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 59768832)
+3217.687 (2) Opened log file at time: Sat, 13 Jun 2015 11:38:12 +0000 on http://theescaperoom.narrativecard.com
+3217.689 (2) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.2.2 PHP: 5.4.37 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 47.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3217.690 (2) Free space on disk containing Updraft's temporary directory: 354529.1 Mb
+3217.693 (2) Backup run: resumption=2, nonce=5ff8b69492e6, begun at=1434192274 (3218s ago), job type=backup, previous check-in=127.1s
+3217.694 (2) Long time past since expected resumption time: approx expected=1434193924.5, now=1434195492.2, diff=1567.6
+3217.695 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3217.699 (2) Scheduling a resumption (3) after 300 seconds (1434195792) in case this run gets aborted
+3217.709 (2) Checking if we have a zip executable available
+3217.711 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+3217.712 (2) Creation of backups of directories: already finished
+3217.713 (2) Saving backup status to database (elements: 8)
+3217.717 (2) Database dump (WordPress DB): Creation was completed already
+3217.719 (2) Saving backup history
+3217.727 (2) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip: plugins: This file has already been successfully uploaded
+3217.728 (2) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip: themes: This file has already been successfully uploaded
+3217.729 (2) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3217.730 (2) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip: others: This file has not yet been successfully uploaded: will queue
+3217.731 (2) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: db: This file has not yet been successfully uploaded: will queue
+3217.735 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+3217.736 (2) Cloud backup selection: dropbox
+3217.739 (2) Beginning dispatch of backup to remote (dropbox)
+3217.741 (2) Dropbox: begin cloud upload
+3217.746 (2) Dropbox: access gained
+3218.335 (2) Dropbox quota usage: normal=677.2 Mb, shared=0 Mb, total=7936 Mb, available=7258.8 Mb
+3218.337 (2) This is a resumption: 59768832 bytes had already been uploaded
+3218.338 (2) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip
+3218.573 (2) Dropbox chunked upload exception (Dropbox_BadRequestException): Submitted input out of alignment: got [59768832] expected [60817408] (line: 169, file: /home/keyan2/theescaperoom.narrativecard.com/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3218.574 (2) Dropbox not yet aligned: tried=59768832, wanted=60817408; will attempt recovery
+3220.306 (2) Dropbox chunked upload: 39.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 61865984)
+3222.332 (2) Dropbox chunked upload: 40.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 62914560)
+3223.263 (2) Dropbox chunked upload: 41.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 63963136)
+3224.368 (2) Dropbox chunked upload: 41.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 65011712)
+3225.559 (2) Dropbox chunked upload: 42.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 66060288)
+3227.999 (2) Dropbox chunked upload: 43.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 67108864)
+3228.786 (2) Dropbox chunked upload: 43.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 68157440)
+3230.273 (2) Dropbox chunked upload: 44.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 69206016)
+3231.493 (2) Dropbox chunked upload: 45.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 70254592)
+3233.289 (2) Dropbox chunked upload: 46 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 71303168)
+3233.985 (2) Dropbox chunked upload: 46.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 72351744)
+3235.233 (2) Dropbox chunked upload: 47.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 73400320)
+3236.147 (2) Dropbox chunked upload: 48 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 74448896)
+3238.453 (2) Dropbox chunked upload: 48.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 75497472)
+3239.131 (2) Dropbox chunked upload: 49.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 76546048)
+3240.124 (2) Dropbox chunked upload: 50 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 77594624)
+3241.681 (2) Dropbox chunked upload: 50.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 78643200)
+3243.496 (2) Dropbox chunked upload: 51.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 79691776)
+3244.298 (2) Dropbox chunked upload: 52 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 80740352)
+3245.813 (2) Dropbox chunked upload: 52.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 81788928)
+3246.897 (2) Dropbox chunked upload: 53.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 82837504)
+3249.749 (2) Dropbox chunked upload: 54.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 83886080)
+3250.453 (2) Dropbox chunked upload: 54.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 84934656)
+3251.379 (2) Dropbox chunked upload: 55.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 85983232)
+3252.479 (2) Dropbox chunked upload: 56.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 87031808)
+3254.803 (2) Dropbox chunked upload: 56.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 88080384)
+3255.668 (2) Dropbox chunked upload: 57.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 89128960)
+3256.672 (2) Dropbox chunked upload: 58.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 90177536)
+3257.649 (2) Dropbox chunked upload: 58.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 91226112)
+3260.235 (2) Dropbox chunked upload: 59.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 92274688)
+3261.315 (2) Dropbox chunked upload: 60.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 93323264)
+3262.643 (2) Dropbox chunked upload: 60.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 94371840)
+3264.283 (2) Dropbox chunked upload: 61.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 95420416)
+3266.989 (2) Dropbox chunked upload: 62.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 96468992)
+3267.763 (2) Dropbox chunked upload: 62.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 97517568)
+3268.696 (2) Dropbox chunked upload: 63.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 98566144)
+3269.828 (2) Dropbox chunked upload: 64.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 99614720)
+3272.678 (2) Dropbox chunked upload: 64.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 100663296)
+3273.411 (2) Dropbox chunked upload: 65.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 101711872)
+3274.368 (2) Dropbox chunked upload: 66.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 102760448)
+3276.372 (2) Dropbox chunked upload: 66.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 103809024)
+3278.201 (2) Dropbox chunked upload: 67.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 104857600)
+3278.901 (2) Dropbox chunked upload: 68.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 105906176)
+3280.144 (2) Dropbox chunked upload: 68.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 106954752)
+3281.272 (2) Dropbox chunked upload: 69.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 108003328)
+3283.243 (2) Dropbox chunked upload: 70.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 109051904)
+3284.935 (2) Dropbox chunked upload: 71 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 110100480)
+3285.994 (2) Dropbox chunked upload: 71.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 111149056)
+3286.994 (2) Dropbox chunked upload: 72.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 112197632)
+3288.484 (2) Dropbox chunked upload: 73 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 113246208)
+3289.210 (2) Dropbox chunked upload: 73.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 114294784)
+3290.198 (2) Dropbox chunked upload: 74.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 115343360)
+3291.350 (2) Dropbox chunked upload: 75 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 116391936)
+3293.172 (2) Dropbox chunked upload: 75.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 117440512)
+3293.896 (2) Dropbox chunked upload: 76.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 118489088)
+3294.960 (2) Dropbox chunked upload: 77 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 119537664)
+3296.070 (2) Dropbox chunked upload: 77.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 120586240)
+3297.972 (2) Dropbox chunked upload: 78.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 121634816)
+3298.704 (2) Dropbox chunked upload: 79.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 122683392)
+3299.959 (2) Dropbox chunked upload: 79.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 123731968)
+3301.044 (2) Dropbox chunked upload: 80.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 124780544)
+3303.093 (2) Dropbox chunked upload: 81.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 125829120)
+3303.818 (2) Dropbox chunked upload: 81.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 126877696)
+3304.708 (2) Dropbox chunked upload: 82.4 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 127926272)
+3305.855 (2) Dropbox chunked upload: 83.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 128974848)
+3307.817 (2) Dropbox chunked upload: 83.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 130023424)
+3308.680 (2) Dropbox chunked upload: 84.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 131072000)
+3311.434 (2) Dropbox chunked upload: 85.1 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 132120576)
+3312.632 (2) Dropbox chunked upload: 85.8 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 133169152)
+3314.479 (2) Dropbox chunked upload: 86.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 134217728)
+3315.510 (2) Dropbox chunked upload: 87.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 135266304)
+3316.458 (2) Dropbox chunked upload: 87.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 136314880)
+3317.684 (2) Dropbox chunked upload: 88.5 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 137363456)
+3319.886 (2) Dropbox chunked upload: 89.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 138412032)
+3320.568 (2) Dropbox chunked upload: 89.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 139460608)
+3321.562 (2) Dropbox chunked upload: 90.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 140509184)
+3322.636 (2) Dropbox chunked upload: 91.2 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 141557760)
+3324.908 (2) Dropbox chunked upload: 91.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 142606336)
+3325.608 (2) Dropbox chunked upload: 92.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 143654912)
+3326.622 (2) Dropbox chunked upload: 93.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 144703488)
+3327.862 (2) Dropbox chunked upload: 93.9 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 145752064)
+3330.155 (2) Dropbox chunked upload: 94.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 146800640)
+3330.967 (2) Dropbox chunked upload: 95.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 147849216)
+3331.943 (2) Dropbox chunked upload: 96 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 148897792)
+3333.184 (2) Dropbox chunked upload: 96.6 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 149946368)
+3335.660 (2) Dropbox chunked upload: 97.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 150994944)
+3336.335 (2) Dropbox chunked upload: 98 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 152043520)
+3337.750 (2) Dropbox chunked upload: 98.7 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 153092096)
+3339.108 (2) Dropbox chunked upload: 99.3 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 154140672)
+3340.418 (2) Dropbox chunked upload: 100 % uploaded (9rZHMKSxXh4t9ukAiKZoZw, 155167653)
+3342.799 (2) Recording as successfully uploaded: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip (89a97f029f178029116ba0f4745c5508)
+3342.855 (2) Deleting local file: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip: OK
+3342.857 (2) Dropbox: File upload success (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip): 151530 Kb in 124s (1216 Kb/s)
+3343.830 (2) Dropbox quota usage: normal=825.2 Mb, shared=0 Mb, total=7936 Mb, available=7110.8 Mb
+3343.832 (2) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip
+3344.739 (2) Dropbox chunked upload: 93.2 % uploaded (TSCDtYzET1IQ4KD6dzyuBw, 1048576)
+3345.478 (2) Dropbox chunked upload: 100 % uploaded (TSCDtYzET1IQ4KD6dzyuBw, 1125573)
+21463.046 (3) Opened log file at time: Sat, 13 Jun 2015 16:42:17 +0000 on http://theescaperoom.narrativecard.com
+21463.048 (3) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.26 WP: 4.2.2 PHP: 5.4.37 (Linux sunshine 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.7M | 47.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+21463.049 (3) Free space on disk containing Updraft's temporary directory: 354990.8 Mb
+21463.052 (3) Backup run: resumption=3, nonce=5ff8b69492e6, begun at=1434192274 (21463s ago), job type=backup, previous check-in=127.8s
+21463.054 (3) Long time past since expected resumption time: approx expected=1434195920, now=1434213737.5, diff=17817.6
+21463.055 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+21463.058 (3) Scheduling a resumption (4) after 300 seconds (1434214037) in case this run gets aborted
+21463.103 (3) Checking if we have a zip executable available
+21463.105 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+21463.107 (3) Creation of backups of directories: already finished
+21463.108 (3) Saving backup status to database (elements: 8)
+21463.113 (3) Database dump (WordPress DB): Creation was completed already
+21463.114 (3) Saving backup history
+21463.121 (3) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-plugins.zip: plugins: This file has already been successfully uploaded
+21463.122 (3) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-themes.zip: themes: This file has already been successfully uploaded
+21463.123 (3) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-uploads.zip: uploads: This file has already been successfully uploaded
+21463.124 (3) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip: others: This file has not yet been successfully uploaded: will queue
+21463.125 (3) backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: db: This file has not yet been successfully uploaded: will queue
+21463.129 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+21463.130 (3) Cloud backup selection: dropbox
+21463.153 (3) Beginning dispatch of backup to remote (dropbox)
+21463.155 (3) Dropbox: begin cloud upload
+21463.173 (3) Dropbox: access gained
+21463.637 (3) Dropbox quota usage: normal=826.3 Mb, shared=0 Mb, total=7936 Mb, available=7109.7 Mb
+21463.639 (3) This is a resumption: 1125573 bytes had already been uploaded
+21463.641 (3) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip
+21465.068 (3) Recording as successfully uploaded: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip (1f6b0be3f069566db0b4f0c6f9621020)
+21465.104 (3) Deleting local file: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip: OK
+21465.106 (3) Dropbox: File upload success (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-others.zip): 1099 Kb in 1s (749 Kb/s)
+21465.575 (3) Dropbox quota usage: normal=826.3 Mb, shared=0 Mb, total=7936 Mb, available=7109.7 Mb
+21465.577 (3) Dropbox: Attempt to upload: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz to: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz
+21466.462 (3) Dropbox chunked upload: 100 % uploaded (qeH-kYnNEdH9jjbJhTZwLA, 303454)
+21467.546 (3) Recording as successfully uploaded: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz (ffcd157fdc79f8564817fe93c37bf596)
+21467.552 (3) Deleting local file: backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz: OK
+21467.553 (3) Dropbox: File upload success (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz): 296 Kb in 1s (149 Kb/s)
+21467.557 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+21467.558 (3) Number of backup sets in history: 5
+21467.559 (3) Examining backup set with datestamp: 1434192274 (Jun 13 2015 10:44:34)
+21467.560 (3) 1434192274: db: this set includes a database (backup_2015-06-13-1044_The_Escape_Room_5ff8b69492e6-db.gz); db count is now 1
+21467.563 (3) 1434192274: this backup set remains non-empty (1/1); will retain in history
+21467.564 (3) Examining backup set with datestamp: 1433600444 (Jun 06 2015 14:20:44)
+21467.565 (3) 1433600444: db: this set includes a database (backup_2015-06-06-1420_The_Escape_Room_16a96647aae4-db.gz); db count is now 2
+21467.567 (3) 1433600444: this backup set remains non-empty (1/1); will retain in history
+21467.568 (3) Examining backup set with datestamp: 1433031943 (May 31 2015 00:25:43)
+21467.569 (3) 1433031943: db: this set includes a database (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-db.gz); db count is now 3
+21467.570 (3) 1433031943: db: over retain limit (2); will delete this database
+21467.571 (3) Delete file: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-db.gz, service=dropbox
+21467.572 (3) Deleting local copy (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-db.gz)
+21467.573 (3) Dropbox: request deletion: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-db.gz
+21468.035 (3) Dropbox error: Path '/backup_2015-05-31-0025_the_escape_room_913a59abc901-db.gz' not found (line: 171, file: /home/keyan2/theescaperoom.narrativecard.com/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+21468.039 (3) plugins: 1433031943: over retain limit (2); will delete this file (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-plugins.zip)
+21468.040 (3) themes: 1433031943: over retain limit (2); will delete this file (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-themes.zip)
+21468.041 (3) uploads: 1433031943: over retain limit (2); will delete this file (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-uploads.zip)
+21468.042 (3) others: 1433031943: over retain limit (2); will delete this file (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-others.zip)
+21468.044 (3) Delete file: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-plugins.zip, service=dropbox
+21468.045 (3) Delete file: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-themes.zip, service=dropbox
+21468.046 (3) Delete file: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-uploads.zip, service=dropbox
+21468.047 (3) Deleting local copy (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-uploads.zip)
+21468.048 (3) Delete file: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-others.zip, service=dropbox
+21468.049 (3) Deleting local copy (backup_2015-05-31-0025_The_Escape_Room_913a59abc901-others.zip)
+21468.050 (3) Dropbox: request deletion: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-plugins.zip
+21468.708 (3) Dropbox: delete succeeded
+21468.711 (3) Dropbox: request deletion: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-themes.zip
+21469.331 (3) Dropbox: delete succeeded
+21469.333 (3) Dropbox: request deletion: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-uploads.zip
+21469.831 (3) Dropbox error: Path '/backup_2015-05-31-0025_the_escape_room_913a59abc901-uploads.zip' not found (line: 171, file: /home/keyan2/theescaperoom.narrativecard.com/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+21469.833 (3) Dropbox: delete succeeded
+21469.834 (3) Dropbox: request deletion: backup_2015-05-31-0025_The_Escape_Room_913a59abc901-others.zip
+21470.286 (3) Dropbox error: Path '/backup_2015-05-31-0025_the_escape_room_913a59abc901-others.zip' not found (line: 171, file: /home/keyan2/theescaperoom.narrativecard.com/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+21470.287 (3) Dropbox: delete succeeded
+21470.290 (3) 1433031943: this backup set is now empty; will remove from history
+21470.292 (3) 1433031943: deleting log file (log.913a59abc901.txt)
+21470.293 (3) Examining backup set with datestamp: 1432328261 (May 22 2015 20:57:41)
+21470.294 (3) 1432328261: db: this set includes a database (backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-db.gz); db count is now 4
+21470.295 (3) 1432328261: db: over retain limit (2); will delete this database
+21470.296 (3) Delete file: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-db.gz, service=dropbox
+21470.297 (3) Dropbox: request deletion: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-db.gz
+21470.961 (3) Dropbox: delete succeeded
+21470.965 (3) plugins: 1432328261: over retain limit (2); will delete this file (backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-plugins.zip)
+21470.966 (3) themes: 1432328261: over retain limit (2); will delete this file (backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-themes.zip)
+21470.968 (3) uploads: 1432328261: over retain limit (2); will delete this file (backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-uploads.zip)
+21470.968 (3) others: 1432328261: over retain limit (2); will delete this file (backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-others.zip)
+21470.969 (3) Delete file: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-plugins.zip, service=dropbox
+21470.970 (3) Delete file: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-themes.zip, service=dropbox
+21470.973 (3) Delete file: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-uploads.zip, service=dropbox
+21470.974 (3) Delete file: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-others.zip, service=dropbox
+21470.975 (3) Dropbox: request deletion: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-plugins.zip
+21471.599 (3) Dropbox: delete succeeded
+21471.600 (3) Dropbox: request deletion: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-themes.zip
+21472.198 (3) Dropbox: delete succeeded
+21472.201 (3) Dropbox: request deletion: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-uploads.zip
+21472.853 (3) Dropbox: delete succeeded
+21472.854 (3) Dropbox: request deletion: backup_2015-05-22-2057_The_Escape_Room_2b9acb96015b-others.zip
+21473.484 (3) Dropbox: delete succeeded
+21473.488 (3) 1432328261: this backup set is now empty; will remove from history
+21473.489 (3) 1432328261: deleting log file (log.2b9acb96015b.txt)
+21473.490 (3) Examining backup set with datestamp: 1431761066 (May 16 2015 07:24:26)
+21473.491 (3) 1431761066: db: this set includes a database (backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-db.gz); db count is now 5
+21473.492 (3) 1431761066: db: over retain limit (2); will delete this database
+21473.493 (3) Delete file: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-db.gz, service=dropbox
+21473.494 (3) Dropbox: request deletion: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-db.gz
+21474.225 (3) Dropbox: delete succeeded
+21474.229 (3) plugins: 1431761066: over retain limit (2); will delete this file (backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-plugins.zip)
+21474.230 (3) themes: 1431761066: over retain limit (2); will delete this file (backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-themes.zip)
+21474.232 (3) uploads: 1431761066: over retain limit (2); will delete this file (backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-uploads.zip)
+21474.233 (3) others: 1431761066: over retain limit (2); will delete this file (backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-others.zip)
+21474.234 (3) Delete file: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-plugins.zip, service=dropbox
+21474.235 (3) Delete file: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-themes.zip, service=dropbox
+21474.236 (3) Delete file: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-uploads.zip, service=dropbox
+21474.237 (3) Delete file: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-others.zip, service=dropbox
+21474.238 (3) Dropbox: request deletion: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-plugins.zip
+21474.871 (3) Dropbox: delete succeeded
+21474.873 (3) Dropbox: request deletion: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-themes.zip
+21475.508 (3) Dropbox: delete succeeded
+21475.510 (3) Dropbox: request deletion: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-uploads.zip
+21476.165 (3) Dropbox: delete succeeded
+21476.168 (3) Dropbox: request deletion: backup_2015-05-16-0724_The_Escape_Room_2b38bb6fb5ec-others.zip
+21476.797 (3) Dropbox: delete succeeded
+21476.801 (3) 1431761066: this backup set is now empty; will remove from history
+21476.802 (3) 1431761066: deleting log file (log.2b38bb6fb5ec.txt)
+21476.803 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+21476.806 (3) Resume backup (5ff8b69492e6, 3): finish run
+21476.808 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+21476.814 (3) Fetching RSS news feed
+21477.093 (3) Fetched RSS news feed; result is a: SimplePie
+21477.097 (3) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 83.4 Kb) to: enqui...
+21477.167 (3) The backup apparently succeeded (with warnings) and is now complete
